@@ -166,7 +166,6 @@ dispensa/
 
 ## 👥 Autores
 
-|------|--------|------|
 | Gabriel Lima Rocha | 
 | Guilherme Lopes| 
 | Yuri Aoyagui | 
