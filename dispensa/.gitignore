@@ -1,0 +1,20 @@
+# Dependências — nunca sobe, cada dev instala com npm install
+node_modules/
+
+# Build de produção gerado pelo Vite
+dist/
+
+# Cache interno do Vite
+.vite/
+
+# Logs de erro do npm
+*.log
+npm-debug.log*
+
+# Variáveis de ambiente (se criarem futuramente)
+.env
+.env.local
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
