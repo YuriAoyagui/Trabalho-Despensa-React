@@ -26,7 +26,7 @@ export default function ExportPDF() {
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Dispensa — ${usuarioLogado.nome}</title>
+  <title>Despensa — ${usuarioLogado.nome}</title>
   <style>
     body { font-family: Arial, sans-serif; padding: 24px; color: #1a1a2e; }
     h1 { font-size: 20px; margin-bottom: 4px; }
@@ -62,7 +62,7 @@ export default function ExportPDF() {
     const url = URL.createObjectURL(blob);
     const link = document.createElement('a');
     link.href = url;
-    link.download = `dispensa_${usuarioLogado.nome}_${agora.replace(/\//g, '-')}.html`;
+    link.download = `despensa_${usuarioLogado.nome}_${agora.replace(/\//g, '-')}.html`;
     link.click();
     URL.revokeObjectURL(url);
   };
