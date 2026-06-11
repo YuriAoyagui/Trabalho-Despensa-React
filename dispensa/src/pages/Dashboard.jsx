@@ -33,7 +33,7 @@ export default function Dashboard({ onIrPerfil }) {
       <header className="dash-header">
         <div className="dash-brand">
           <span className="brand-icon">🥫</span>
-          <span className="brand-name">Minha Dispensa</span>
+          <span className="brand-name">Minha Despensa</span>
         </div>
         <div className="dash-user">
           <button className="user-btn" onClick={onIrPerfil} title="Editar perfil">

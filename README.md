@@ -1,11 +1,11 @@
-# 🥫 Gerenciador de Dispensa
+# 🥫 Gerenciador de Despensa
 
 ![React](https://img.shields.io/badge/React-18-61DAFB?style=flat&logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-5-646CFF?style=flat&logo=vite&logoColor=white)
 ![Node](https://img.shields.io/badge/Node.js-18%2B-339933?style=flat&logo=node.js&logoColor=white)
 ![License](https://img.shields.io/badge/Licença-MIT-green?style=flat)
 
-Aplicação web responsiva para controle pessoal de estoque alimentício doméstico. O sistema permite cadastrar alimentos por lote de validade, alertar visualmente sobre produtos próximos ao vencimento e exportar a lista completa da dispensa para consulta offline no mercado — reduzindo o desperdício de alimentos e os gastos com reabastecimentos desnecessários.
+Aplicação web responsiva para controle pessoal de estoque alimentício doméstico. O sistema permite cadastrar alimentos por lote de validade, alertar visualmente sobre produtos próximos ao vencimento e exportar a lista completa da despensa para consulta offline no mercado — reduzindo o desperdício de alimentos e os gastos com reabastecimentos desnecessários.
 
 ---
 
@@ -13,11 +13,11 @@ Aplicação web responsiva para controle pessoal de estoque alimentício domést
 
 - **Autenticação completa** — cadastro, login, logout e redefinição de senha
 - **Perfil de usuário** — nome, foto de perfil, edição e exclusão de conta
-- **CRUD de alimentos** — adicionar, visualizar, editar e excluir itens da dispensa
+- **CRUD de alimentos** — adicionar, visualizar, editar e excluir itens da despensa
 - **Controle por lotes** — cada compra com validade diferente gera uma linha independente, sem misturar estoques
 - **Alertas visuais por validade** — cores dinâmicas em tempo real conforme a proximidade do vencimento
 - **Consumo rápido** — botão que desconta 1 unidade do estoque com um clique
-- **Exportação para PDF** — gera e baixa um relatório completo da dispensa para uso offline
+- **Exportação para PDF** — gera e baixa um relatório completo da despensa para uso offline
 - **Busca e filtro** — localizar itens por nome ou categoria
 - **Categorias fixas** — padronização dos grupos alimentares para evitar duplicidade de nomes
 - **Totalmente responsivo** — funciona em desktop, notebook e celular via navegador
@@ -58,7 +58,7 @@ O projeto segue a arquitetura em três camadas definida na ERS (Especificação 
 ┌────────────────────▼────────────────────────┐
 │         CAMADA APPLICATION (contexts/)      │
 │      AuthContext · PantryContext            │
-│  GestaoAutenticacao ◄──► ControleDispensa   │
+│  GestaoAutenticacao ◄──► ControleDespensa   │
 └────────────────────┬────────────────────────┘
                      │ delega
 ┌────────────────────▼────────────────────────┐
@@ -94,7 +94,7 @@ git --version
 **1. Clone o repositório**
 
 ```bash
-git clone https://github.com/seu-usuario/Trabalho-Dispensa-React.git
+git clone https://github.com/seu-usuario/Trabalho-Despensa-React.git
 ```
 
 **2. Entre na pasta do projeto**
@@ -128,7 +128,7 @@ Para encerrar o servidor, pressione `Ctrl+C` no terminal.
 ## 📁 Estrutura de Pastas
 
 ```
-dispensa/
+despensa/
 ├── index.html                  # Entrada HTML da SPA
 ├── package.json
 ├── vite.config.js
@@ -147,7 +147,7 @@ dispensa/
     │   ├── Login.jsx           # Tela de login
     │   ├── Register.jsx        # Tela de cadastro
     │   ├── ForgotPassword.jsx  # Redefinição de senha
-    │   ├── Dashboard.jsx       # Painel principal da dispensa (UC05)
+    │   ├── Dashboard.jsx       # Painel principal da despensa (UC05)
     │   └── Profile.jsx         # Edição e exclusão de conta
     │
     ├── components/

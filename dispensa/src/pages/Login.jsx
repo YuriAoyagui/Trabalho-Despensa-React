@@ -20,7 +20,7 @@ export default function Login({ onIrCadastro, onIrRecuperar }) {
     <div className="auth-page">
       <div className="auth-card">
         <div className="auth-logo">🥫</div>
-        <h1 className="auth-title">Minha Dispensa</h1>
+        <h1 className="auth-title">Minha Despensa</h1>
         <p className="auth-sub">Gerencie seus alimentos com facilidade</p>
 
         <label className="field-label">Nome de usuário</label>

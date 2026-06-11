@@ -39,7 +39,7 @@ export default function ExportPDF() {
   </style>
 </head>
 <body>
-  <h1>🏠 Minha Dispensa — ${usuarioLogado.nome}</h1>
+  <h1>🏠 Minha Despensa — ${usuarioLogado.nome}</h1>
   <p class="sub">Relatório gerado em ${agora} · ${itens.length} lote(s) cadastrado(s)</p>
   <table>
     <thead>
@@ -53,7 +53,7 @@ export default function ExportPDF() {
     </thead>
     <tbody>${linhas}</tbody>
   </table>
-  <p class="footer">Gerenciador de Dispensa · Exportado para consulta offline</p>
+  <p class="footer">Gerenciador de Despensa · Exportado para consulta offline</p>
   <script>window.onload = () => window.print();<\/script>
 </body>
 </html>`;

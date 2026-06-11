@@ -35,7 +35,7 @@ export default function Register({ onIrLogin }) {
       <div className="auth-card">
         <div className="auth-logo">🥫</div>
         <h1 className="auth-title">Criar Conta</h1>
-        <p className="auth-sub">Bem-vindo(a) ao Gerenciador de Dispensa</p>
+        <p className="auth-sub">Bem-vindo(a) ao Gerenciador de Despensa</p>
 
         <label className="field-label">Foto de Perfil (opcional)</label>
         <div className="foto-upload">
